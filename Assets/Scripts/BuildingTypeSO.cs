@@ -6,4 +6,5 @@ using UnityEngine;
 public class BuildingTypeSO : ScriptableObject {
     [SerializeField] private string nameString;
     public Transform prefab;
+    public ResourceGeneratorData resourceGeneratorData;
 }
